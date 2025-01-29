@@ -690,7 +690,7 @@ p, a {
 }
 
 .coments__registr {
-  margin: 20px 0 50px 0;
+  margin: 20px 10px 50px 0;
   background-color: #8EA1FF;
   border: 1px solid #3454F4;
   font-size: 20px;
@@ -700,21 +700,21 @@ p, a {
 
 @media (max-width: 768px) {
   .coments__registr {
-    margin: 20px 0 40px 0;
+    margin: 20px 10px 40px 0;
     font-size: 18px;
     padding: 12.5px;
   }
 }
 @media (max-width: 576px) {
   .coments__registr {
-    margin: 20px 0 30px 0;
+    margin: 20px 10px 30px 0;
     font-size: 16px;
     padding: 10px;
   }
 }
 @media (max-width: 450px) {
   .coments__registr {
-    margin: 20px 0 20px 0;
+    margin: 20px 10px 20px 0;
     font-size: 14px;
     padding: 7px;
   }
@@ -865,8 +865,12 @@ p, a {
     margin: 50px 0 50px 0px;
   }
   .main__title__item_4 .main__title__h1__item_4 {
-    font-size: 26px;
-    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+  }
+  .main__title__item_4 .main__title__subtitle__item_4 {
+    margin-top: 15px;
+    font-size: 12px;
     text-align: center;
   }
 }
@@ -977,7 +981,7 @@ p, a {
   .section__authorization .authorization__form__1 input,
   .section__authorization .authorization__form__2 input,
   .section__authorization .authorization__form__3 input {
-    font-size: 14px;
+    font-size: 12px;
     padding: 8px 0 4px 10px;
   }
 }
@@ -1001,7 +1005,7 @@ p, a {
 }
 @media (max-width: 450px) {
   .section__authorization .authorization__button {
-    font-size: 14px;
+    font-size: 12px;
     margin-top: 20px;
   }
 }
