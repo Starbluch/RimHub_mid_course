@@ -129,7 +129,7 @@ p,a {
     align-items: center;
     justify-content: space-between;
     margin: 58px 5px 0 110px;
-    opacity: 1;
+    opacity: 0;
     .main__title__h1 {
         margin: 0;
         font-size: 32px;
@@ -173,7 +173,7 @@ p,a {
 .main__title__line {
     position: absolute;
     margin-left: 110px;
-    top: 205px;
+    top: 216px;
     .main__title__h1__line {
         position: relative;
         font-size: 32px;
@@ -210,7 +210,7 @@ p,a {
     }
 }
 
-@media (max-width: 19999px) {
+@media (max-width: 1199px) {
     .main__title__line {
         display: none;
     }
