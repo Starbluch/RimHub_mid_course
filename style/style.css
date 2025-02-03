@@ -274,6 +274,11 @@ p, a {
   }
 }
 
+@media (max-width: 768px) {
+  .main__navigation {
+    margin: 90px 0 0 15px;
+  }
+}
 .main__title {
   display: grid;
   grid-template-columns: 1fr 230px;
@@ -318,7 +323,7 @@ p, a {
 @media (max-width: 768px) {
   .main__title {
     row-gap: 30px;
-    margin: 58px auto 0px auto;
+    margin: 38px auto 0px auto;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
   }
